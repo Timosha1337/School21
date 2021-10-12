@@ -1,0 +1,3 @@
+C:/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles/libf.dir
+C:/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
