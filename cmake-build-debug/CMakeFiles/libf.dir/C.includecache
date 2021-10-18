@@ -11,4 +11,10 @@ stdio.h
 -
 string.h
 -
+ctype.h
+-
+stdlib.h
+-
+limits.h
+-
 
