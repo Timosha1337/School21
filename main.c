@@ -25,13 +25,43 @@ void *ft_memchr (const void *arr, int c, size_t n);
 int ft_memcmp (const void *arr1, const void *arr2, size_t n);
 char *ft_strstr(const char *scr, const char *sought);
 int ft_atoi (const char *str);
+void *ft_calloc(size_t num, size_t size);
+char *ft_strdup(const char *str);
 
 int main()
 {
-    char *number = "";
-    int n = atoi(number);
-    printf("%i\n",n);
-    printf("%i\n",INT_MIN);
+    char  *j = "";
+
+    char *r = ft_strdup(j);
+    printf("%s\n",r);
+}
+char *ft_strdup(const char *str)
+{
+    char *res;
+    int i;
+
+    if(!str)
+        return (NULL);
+    i = 0;
+    res = (char *) malloc(ft_strlen(str) * sizeof(char));
+    while (str[i])
+    {
+        res[i] = str[i];
+        i++;
+    }
+    res[i] = 0;
+    return (res);
+}
+
+void *ft_calloc(size_t count, size_t size)
+{
+    void * res;
+
+    res = (void *) malloc(size * count);
+    if (!res)
+        return (NULL);
+    ft_bzero(res,count);
+    return (res);
 }
 
 int ft_atoi (const char *str)
