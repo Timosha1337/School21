@@ -27,14 +27,140 @@ char *ft_strstr(const char *scr, const char *sought);
 int ft_atoi (const char *str);
 void *ft_calloc(size_t num, size_t size);
 char *ft_strdup(const char *str);
-
+char *ft_substr(char const *s, unsigned int start, size_t len);
+char *ft_strjoin(char const *s1, char const *s2);
+char *ft_strtrim(char const *s1, char const *set);
+char **ft_split(char const *s, char c);
 int main()
 {
-    char  *j = "";
-
-    char *r = ft_strdup(j);
+    char * t = malloc(1);
+    t= "Jopa";
+    printf("%s\n",t);
+    char  *j = "1634567";
+    char *r = ft_strtrim(j,"13");
     printf("%s\n",r);
 }
+char **ft_split(char const *s, char c)
+{
+
+}
+char *ft_math(char  s1, char const *set)
+{
+    int j;
+
+    j = 0;
+    while (set[j])
+    {
+        if(s1 == set[j])
+            return (1);
+        j++;
+    }
+    return (0);
+}
+
+char *ft_strtrim(char const *s1, char const *set)
+{
+    int start;
+    int i;
+    int end;
+    char *res;
+
+    start = 0;
+    i = 0;
+    end = (int)ft_strlen(s1);
+    while (s1[start] && ft_math(s1[start],set))
+        start++;
+    while (end - 1 > start && ft_math(s1[end - 1], set))
+        end--;
+    res = malloc(end - start);
+    while (start < end)
+        res[i++] = s1[start++];
+    res[i] = 0;
+    return (res);
+}
+char *ft_strtrim_fake(char const *s1, char const *set)
+{
+    char *res;
+    char  *buf;
+    int i;
+    int j;
+    int setLen;
+
+    setLen = (int) ft_strlen(set);
+    i = 0;
+    j = 0;
+    res = malloc(1);
+    buf = malloc(1);
+    while (*s1)
+    {
+        while (set[i])
+        {
+            if (*s1 == set[i])
+                break;
+            else
+                i++;
+        }
+        if (setLen == i)
+        {
+            buf[j] = *s1;
+            res = malloc(j);
+            res = buf;
+            j++;
+            buf = malloc(j);
+            buf = res;
+            if (!res || !buf)
+                return (NULL);
+        }
+        i = 0;
+        *s1++;
+    }
+    res[j] = 0;
+    return (res);
+}
+
+char *ft_strjoin(char const *s1, char const *s2)
+{
+    char * concat;
+    int i;
+
+    i = 0;
+    concat = malloc(ft_strlen(s1)+ ft_strlen(s2));
+    if (!concat)
+        return (NULL);
+    while (*s1)
+    {
+        concat[i] = *s1;
+        i++;
+        *s1++;
+    }
+    while (*s2)
+    {
+        concat[i] = *s2;
+        i++;
+        *s2++;
+    }
+    concat[i]=0;
+    return(concat);
+}
+char *ft_substr(char const *s, unsigned int start, size_t len)
+{
+    char *sub;
+    int i;
+
+
+    i = 0;
+    sub = malloc(len);
+    if(s == NULL || start > ft_strlen(s) || !sub)
+        return (NULL);
+    while (i < len)
+    {
+        sub[i] = s[start + i];
+        i++;
+    }
+    sub[i] = 0;
+    return (sub);
+}
+
 char *ft_strdup(const char *str)
 {
     char *res;
@@ -43,7 +169,7 @@ char *ft_strdup(const char *str)
     if(!str)
         return (NULL);
     i = 0;
-    res = (char *) malloc(ft_strlen(str) * sizeof(char));
+    res =  malloc(ft_strlen(str));
     while (str[i])
     {
         res[i] = str[i];
