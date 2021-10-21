@@ -31,20 +31,139 @@ char *ft_substr(char const *s, unsigned int start, size_t len);
 char *ft_strjoin(char const *s1, char const *s2);
 char *ft_strtrim(char const *s1, char const *set);
 char **ft_split(char const *s, char c);
+int get_count_words(char const *s, char c);
+char *ft_itoa(int n);
+int count_numbers(int n);
+char *ft_strmapi(char const *s, char (*f)(unsigned
+                                          int, char));
+
 int main()
 {
-    char * t = malloc(1);
-    t= "Jopa";
-    printf("%s\n",t);
-    char  *j = "1634567";
-    char *r = ft_strtrim(j,"13");
-    printf("%s\n",r);
+    unsigned int n;
+    char b;
+    char *r = ft_itoa(-1232123491);
+    printf("%s\n", r);
 }
-char **ft_split(char const *s, char c)
+char *ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 
 }
-char *ft_math(char  s1, char const *set)
+int count_numbers(int n)
+{
+    int res;
+    res=0;
+    while (n!=0)
+    {
+        n/=10;
+        res++;
+    }
+    return (res);
+}
+char *ft_itoa(int n)
+{
+    char *res;
+    int minus;
+    int count;
+
+    if (n==0)
+        return ("0");
+    minus = 0;
+    if (n < 0)
+    {
+        n *= -1;
+        minus = 1;
+    }
+    count = count_numbers(n) + minus;
+    if(!count)
+        return (NULL);
+    res = (char*) malloc(count);
+    res[count]=0;
+    count--;
+
+    while (n!=0)
+    {
+        res[count] = (char )((n%10)+48);
+        n/=10;
+        count--;
+    }
+    if(minus > 0)
+        res[count]='-';
+    return (res);
+}
+char *get_wrd(char const *s, int start, int end)
+{
+    char *res;
+    int i;
+    i = 0;
+    res = malloc(end - start);//-1
+    while (start < end)
+        res[i++] = s[start++];
+    res[i] = 0;
+    return (res);
+}
+int get_count_words(char const *s, char c)
+{
+    int i;
+    int flag;
+    int count;
+
+    i = 0;
+    flag = 0;
+    count = 0;
+    while (s[i])
+    {
+        if (s[i] != c && !flag)
+            flag = 1;
+        if (s[i] == c && flag)
+        {
+            count++;
+            flag = 0;
+        }
+        if (s[i+1] == '\0' && flag)
+            count++;
+        i++;
+    }
+    return (count);
+}
+char **ft_split(char const *s, char c)
+{
+    char **res;
+    int i;
+    int flag;
+    int startFinish[2];
+    int j;
+
+    j = 0;
+    i = 0;
+    flag =0;
+    res = (char **) malloc(get_count_words(s,c));
+    while (s[i])
+    {
+        if (s[i] != c && !flag)
+        {
+            flag = 1;
+            startFinish[0] = i;
+        }
+        if (s[i] == c && flag)
+        {
+            flag = 0;
+            startFinish[1] = i;
+        }
+        if (s[i+1] == '\0' && flag)
+            startFinish[1] = i;
+        if (startFinish[1] > startFinish[0])
+        {
+            res[j] = get_wrd(s, startFinish[0], startFinish[1]);
+            j++;
+            startFinish[0] = 0;
+            startFinish[1] = 0;
+        }
+        i++;
+    }
+    return (res);
+}
+
+int ft_math(char  s1, char const *set)
 {
     int j;
 
