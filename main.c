@@ -3,6 +3,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <limits.h>
+#include <unistd.h>
 
 int     ft_isalpha(int argument);
 int     ft_isdigit( int arg );
@@ -34,8 +35,9 @@ char **ft_split(char const *s, char c);
 int get_count_words(char const *s, char c);
 char *ft_itoa(int n);
 int count_numbers(int n);
-char *ft_strmapi(char const *s, char (*f)(unsigned
-                                          int, char));
+char *ft_strmapi(char const *s, char (*f)(unsigned int, char));
+void ft_striteri(char *s, void (*f)(unsigned int, char*));
+void ft_putstr_fd(char *s, int fd);
 
 int main()
 {
@@ -44,9 +46,41 @@ int main()
     char *r = ft_itoa(-1232123491);
     printf("%s\n", r);
 }
+void ft_putstr_fd(char *s, int fd)
+{
+    if(s)
+        write(fd, s, ft_strlen(s));
+}
+void ft_striteri(char *s, void (*f)(unsigned int, char*))
+{
+    unsigned int i;
+
+    i = 0;
+    if(s && f)
+    {
+        while (s[i])
+        {
+            f(i,&s[i]);
+            i++;
+        }
+    }
+}
 char *ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
+    char *res;
+    unsigned int i;
 
+    i = 0;
+    res = (char*) malloc(ft_strlen(s));
+    if (!res || !f || !s)
+        return (NULL);
+    while (s[i])
+    {
+        res[i] = f(i,s[i]);
+        i++;
+    }
+    res[i] = 0;
+    return (res);
 }
 int count_numbers(int n)
 {
