@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/TimPC/CLionProjects/libf/main.c
+/cygdrive/c/Users/TimPC/CLionProjects/libf/main.c
 stdio.h
 -
 string.h
@@ -16,5 +16,7 @@ ctype.h
 stdlib.h
 -
 limits.h
+-
+unistd.h
 -
 

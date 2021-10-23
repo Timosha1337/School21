@@ -5,6 +5,7 @@
 #include <limits.h>
 #include <unistd.h>
 
+
 int     ft_isalpha(int argument);
 int     ft_isdigit( int arg );
 int     ft_isalnum(int argument);
@@ -38,13 +39,38 @@ int count_numbers(int n);
 char *ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void ft_striteri(char *s, void (*f)(unsigned int, char*));
 void ft_putstr_fd(char *s, int fd);
+void ft_putendl_fd(char *s, int fd);
+void ft_putnbr_fd(int n, int fd);
 
 int main()
 {
-    unsigned int n;
-    char b;
-    char *r = ft_itoa(-1232123491);
-    printf("%s\n", r);
+    ft_putnbr_fd(-123123,1);
+}
+void	ft_putnbr_fd(int n, int fd)
+{
+    char symb;
+
+    if (n < 0) {
+        write(fd, "-", 1);
+        n*=-1;
+    }
+    if (n >= 10)
+    {
+        ft_putnbr_fd(n / 10, fd);
+        ft_putnbr_fd(n % 10, fd);
+    }
+    else
+    {
+        symb = n + '0';
+        write(fd, &symb, 1);
+    }
+}
+
+void ft_putendl_fd(char *s, int fd)
+{
+    if(s)
+        write(fd, s, ft_strlen(s));
+    write(fd,'\n',1);
 }
 void ft_putstr_fd(char *s, int fd)
 {

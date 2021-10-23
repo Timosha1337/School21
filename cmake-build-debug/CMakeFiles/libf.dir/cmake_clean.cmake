@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/libf.dir/main.c.obj"
+  "CMakeFiles/libf.dir/main.c.o"
   "libf.exe"
-  "libf.exe.manifest"
-  "libf.lib"
   "libf.pdb"
+  "liblibf.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
