@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/libft.h">
+			<Option target="libf"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/main.c">
 			<Option target="libf"/>
 		</Unit>

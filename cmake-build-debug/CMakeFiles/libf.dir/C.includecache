@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/TimPC/CLionProjects/libf/libtf.h
+string.h
+-
+
 /cygdrive/c/Users/TimPC/CLionProjects/libf/main.c
 stdio.h
 -
@@ -15,8 +19,8 @@ ctype.h
 -
 stdlib.h
 -
-limits.h
--
 unistd.h
 -
+libtf.h
+/cygdrive/c/Users/TimPC/CLionProjects/libf/libtf.h
 
