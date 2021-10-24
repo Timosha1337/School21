@@ -79,17 +79,527 @@ CMakeFiles/libf.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/main.c -o CMakeFiles/libf.dir/main.c.s
 
+CMakeFiles/libf.dir/sourc/atoi.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/atoi.c.o: ../sourc/atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/libf.dir/sourc/atoi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/atoi.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/atoi.c
+
+CMakeFiles/libf.dir/sourc/atoi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/atoi.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/atoi.c > CMakeFiles/libf.dir/sourc/atoi.c.i
+
+CMakeFiles/libf.dir/sourc/atoi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/atoi.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/atoi.c -o CMakeFiles/libf.dir/sourc/atoi.c.s
+
+CMakeFiles/libf.dir/sourc/bzero.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/bzero.c.o: ../sourc/bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/libf.dir/sourc/bzero.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/bzero.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/bzero.c
+
+CMakeFiles/libf.dir/sourc/bzero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/bzero.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/bzero.c > CMakeFiles/libf.dir/sourc/bzero.c.i
+
+CMakeFiles/libf.dir/sourc/bzero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/bzero.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/bzero.c -o CMakeFiles/libf.dir/sourc/bzero.c.s
+
+CMakeFiles/libf.dir/sourc/calloc.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/calloc.c.o: ../sourc/calloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/libf.dir/sourc/calloc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/calloc.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/calloc.c
+
+CMakeFiles/libf.dir/sourc/calloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/calloc.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/calloc.c > CMakeFiles/libf.dir/sourc/calloc.c.i
+
+CMakeFiles/libf.dir/sourc/calloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/calloc.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/calloc.c -o CMakeFiles/libf.dir/sourc/calloc.c.s
+
+CMakeFiles/libf.dir/sourc/ft_itoa.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/ft_itoa.c.o: ../sourc/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/libf.dir/sourc/ft_itoa.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/ft_itoa.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_itoa.c
+
+CMakeFiles/libf.dir/sourc/ft_itoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/ft_itoa.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_itoa.c > CMakeFiles/libf.dir/sourc/ft_itoa.c.i
+
+CMakeFiles/libf.dir/sourc/ft_itoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/ft_itoa.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_itoa.c -o CMakeFiles/libf.dir/sourc/ft_itoa.c.s
+
+CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.o: ../sourc/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putchar_fd.c
+
+CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putchar_fd.c > CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.i
+
+CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putchar_fd.c -o CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.s
+
+CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.o: ../sourc/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putendl_fd.c
+
+CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putendl_fd.c > CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.i
+
+CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putendl_fd.c -o CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.s
+
+CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.o: ../sourc/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putnbr_fd.c
+
+CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putnbr_fd.c > CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.i
+
+CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putnbr_fd.c -o CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.s
+
+CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.o: ../sourc/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putstr_fd.c
+
+CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putstr_fd.c > CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.i
+
+CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putstr_fd.c -o CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.s
+
+CMakeFiles/libf.dir/sourc/ft_split.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/ft_split.c.o: ../sourc/ft_split.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/libf.dir/sourc/ft_split.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/ft_split.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_split.c
+
+CMakeFiles/libf.dir/sourc/ft_split.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/ft_split.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_split.c > CMakeFiles/libf.dir/sourc/ft_split.c.i
+
+CMakeFiles/libf.dir/sourc/ft_split.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/ft_split.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_split.c -o CMakeFiles/libf.dir/sourc/ft_split.c.s
+
+CMakeFiles/libf.dir/sourc/ft_striteri.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/ft_striteri.c.o: ../sourc/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/libf.dir/sourc/ft_striteri.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/ft_striteri.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_striteri.c
+
+CMakeFiles/libf.dir/sourc/ft_striteri.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/ft_striteri.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_striteri.c > CMakeFiles/libf.dir/sourc/ft_striteri.c.i
+
+CMakeFiles/libf.dir/sourc/ft_striteri.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/ft_striteri.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_striteri.c -o CMakeFiles/libf.dir/sourc/ft_striteri.c.s
+
+CMakeFiles/libf.dir/sourc/ft_strjoin.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/ft_strjoin.c.o: ../sourc/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/libf.dir/sourc/ft_strjoin.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/ft_strjoin.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_strjoin.c
+
+CMakeFiles/libf.dir/sourc/ft_strjoin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/ft_strjoin.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_strjoin.c > CMakeFiles/libf.dir/sourc/ft_strjoin.c.i
+
+CMakeFiles/libf.dir/sourc/ft_strjoin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/ft_strjoin.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_strjoin.c -o CMakeFiles/libf.dir/sourc/ft_strjoin.c.s
+
+CMakeFiles/libf.dir/sourc/ft_strmapi.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/ft_strmapi.c.o: ../sourc/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/libf.dir/sourc/ft_strmapi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/ft_strmapi.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_strmapi.c
+
+CMakeFiles/libf.dir/sourc/ft_strmapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/ft_strmapi.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_strmapi.c > CMakeFiles/libf.dir/sourc/ft_strmapi.c.i
+
+CMakeFiles/libf.dir/sourc/ft_strmapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/ft_strmapi.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_strmapi.c -o CMakeFiles/libf.dir/sourc/ft_strmapi.c.s
+
+CMakeFiles/libf.dir/sourc/ft_strtrim.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/ft_strtrim.c.o: ../sourc/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/libf.dir/sourc/ft_strtrim.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/ft_strtrim.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_strtrim.c
+
+CMakeFiles/libf.dir/sourc/ft_strtrim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/ft_strtrim.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_strtrim.c > CMakeFiles/libf.dir/sourc/ft_strtrim.c.i
+
+CMakeFiles/libf.dir/sourc/ft_strtrim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/ft_strtrim.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_strtrim.c -o CMakeFiles/libf.dir/sourc/ft_strtrim.c.s
+
+CMakeFiles/libf.dir/sourc/ft_substr.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/ft_substr.c.o: ../sourc/ft_substr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/libf.dir/sourc/ft_substr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/ft_substr.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_substr.c
+
+CMakeFiles/libf.dir/sourc/ft_substr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/ft_substr.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_substr.c > CMakeFiles/libf.dir/sourc/ft_substr.c.i
+
+CMakeFiles/libf.dir/sourc/ft_substr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/ft_substr.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_substr.c -o CMakeFiles/libf.dir/sourc/ft_substr.c.s
+
+CMakeFiles/libf.dir/sourc/isalnum.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/isalnum.c.o: ../sourc/isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/libf.dir/sourc/isalnum.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/isalnum.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isalnum.c
+
+CMakeFiles/libf.dir/sourc/isalnum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/isalnum.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isalnum.c > CMakeFiles/libf.dir/sourc/isalnum.c.i
+
+CMakeFiles/libf.dir/sourc/isalnum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/isalnum.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isalnum.c -o CMakeFiles/libf.dir/sourc/isalnum.c.s
+
+CMakeFiles/libf.dir/sourc/isalpha.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/isalpha.c.o: ../sourc/isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/libf.dir/sourc/isalpha.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/isalpha.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isalpha.c
+
+CMakeFiles/libf.dir/sourc/isalpha.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/isalpha.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isalpha.c > CMakeFiles/libf.dir/sourc/isalpha.c.i
+
+CMakeFiles/libf.dir/sourc/isalpha.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/isalpha.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isalpha.c -o CMakeFiles/libf.dir/sourc/isalpha.c.s
+
+CMakeFiles/libf.dir/sourc/isascii.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/isascii.c.o: ../sourc/isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/libf.dir/sourc/isascii.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/isascii.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isascii.c
+
+CMakeFiles/libf.dir/sourc/isascii.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/isascii.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isascii.c > CMakeFiles/libf.dir/sourc/isascii.c.i
+
+CMakeFiles/libf.dir/sourc/isascii.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/isascii.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isascii.c -o CMakeFiles/libf.dir/sourc/isascii.c.s
+
+CMakeFiles/libf.dir/sourc/isdigit.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/isdigit.c.o: ../sourc/isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/libf.dir/sourc/isdigit.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/isdigit.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isdigit.c
+
+CMakeFiles/libf.dir/sourc/isdigit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/isdigit.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isdigit.c > CMakeFiles/libf.dir/sourc/isdigit.c.i
+
+CMakeFiles/libf.dir/sourc/isdigit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/isdigit.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isdigit.c -o CMakeFiles/libf.dir/sourc/isdigit.c.s
+
+CMakeFiles/libf.dir/sourc/isprint.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/isprint.c.o: ../sourc/isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/libf.dir/sourc/isprint.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/isprint.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isprint.c
+
+CMakeFiles/libf.dir/sourc/isprint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/isprint.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isprint.c > CMakeFiles/libf.dir/sourc/isprint.c.i
+
+CMakeFiles/libf.dir/sourc/isprint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/isprint.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isprint.c -o CMakeFiles/libf.dir/sourc/isprint.c.s
+
+CMakeFiles/libf.dir/sourc/memchr.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/memchr.c.o: ../sourc/memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/libf.dir/sourc/memchr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/memchr.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memchr.c
+
+CMakeFiles/libf.dir/sourc/memchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/memchr.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memchr.c > CMakeFiles/libf.dir/sourc/memchr.c.i
+
+CMakeFiles/libf.dir/sourc/memchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/memchr.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memchr.c -o CMakeFiles/libf.dir/sourc/memchr.c.s
+
+CMakeFiles/libf.dir/sourc/memcmp.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/memcmp.c.o: ../sourc/memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/libf.dir/sourc/memcmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/memcmp.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memcmp.c
+
+CMakeFiles/libf.dir/sourc/memcmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/memcmp.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memcmp.c > CMakeFiles/libf.dir/sourc/memcmp.c.i
+
+CMakeFiles/libf.dir/sourc/memcmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/memcmp.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memcmp.c -o CMakeFiles/libf.dir/sourc/memcmp.c.s
+
+CMakeFiles/libf.dir/sourc/memcpy.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/memcpy.c.o: ../sourc/memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/libf.dir/sourc/memcpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/memcpy.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memcpy.c
+
+CMakeFiles/libf.dir/sourc/memcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/memcpy.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memcpy.c > CMakeFiles/libf.dir/sourc/memcpy.c.i
+
+CMakeFiles/libf.dir/sourc/memcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/memcpy.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memcpy.c -o CMakeFiles/libf.dir/sourc/memcpy.c.s
+
+CMakeFiles/libf.dir/sourc/memmove.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/memmove.c.o: ../sourc/memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/libf.dir/sourc/memmove.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/memmove.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memmove.c
+
+CMakeFiles/libf.dir/sourc/memmove.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/memmove.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memmove.c > CMakeFiles/libf.dir/sourc/memmove.c.i
+
+CMakeFiles/libf.dir/sourc/memmove.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/memmove.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memmove.c -o CMakeFiles/libf.dir/sourc/memmove.c.s
+
+CMakeFiles/libf.dir/sourc/memset.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/memset.c.o: ../sourc/memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/libf.dir/sourc/memset.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/memset.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memset.c
+
+CMakeFiles/libf.dir/sourc/memset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/memset.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memset.c > CMakeFiles/libf.dir/sourc/memset.c.i
+
+CMakeFiles/libf.dir/sourc/memset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/memset.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memset.c -o CMakeFiles/libf.dir/sourc/memset.c.s
+
+CMakeFiles/libf.dir/sourc/strchr.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/strchr.c.o: ../sourc/strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/libf.dir/sourc/strchr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/strchr.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strchr.c
+
+CMakeFiles/libf.dir/sourc/strchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/strchr.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strchr.c > CMakeFiles/libf.dir/sourc/strchr.c.i
+
+CMakeFiles/libf.dir/sourc/strchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/strchr.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strchr.c -o CMakeFiles/libf.dir/sourc/strchr.c.s
+
+CMakeFiles/libf.dir/sourc/strdup.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/strdup.c.o: ../sourc/strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/libf.dir/sourc/strdup.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/strdup.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strdup.c
+
+CMakeFiles/libf.dir/sourc/strdup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/strdup.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strdup.c > CMakeFiles/libf.dir/sourc/strdup.c.i
+
+CMakeFiles/libf.dir/sourc/strdup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/strdup.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strdup.c -o CMakeFiles/libf.dir/sourc/strdup.c.s
+
+CMakeFiles/libf.dir/sourc/strlcat.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/strlcat.c.o: ../sourc/strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/libf.dir/sourc/strlcat.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/strlcat.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strlcat.c
+
+CMakeFiles/libf.dir/sourc/strlcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/strlcat.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strlcat.c > CMakeFiles/libf.dir/sourc/strlcat.c.i
+
+CMakeFiles/libf.dir/sourc/strlcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/strlcat.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strlcat.c -o CMakeFiles/libf.dir/sourc/strlcat.c.s
+
+CMakeFiles/libf.dir/sourc/strlcpy.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/strlcpy.c.o: ../sourc/strlcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/libf.dir/sourc/strlcpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/strlcpy.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strlcpy.c
+
+CMakeFiles/libf.dir/sourc/strlcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/strlcpy.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strlcpy.c > CMakeFiles/libf.dir/sourc/strlcpy.c.i
+
+CMakeFiles/libf.dir/sourc/strlcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/strlcpy.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strlcpy.c -o CMakeFiles/libf.dir/sourc/strlcpy.c.s
+
+CMakeFiles/libf.dir/sourc/strlen.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/strlen.c.o: ../sourc/strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/libf.dir/sourc/strlen.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/strlen.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strlen.c
+
+CMakeFiles/libf.dir/sourc/strlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/strlen.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strlen.c > CMakeFiles/libf.dir/sourc/strlen.c.i
+
+CMakeFiles/libf.dir/sourc/strlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/strlen.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strlen.c -o CMakeFiles/libf.dir/sourc/strlen.c.s
+
+CMakeFiles/libf.dir/sourc/strncmp.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/strncmp.c.o: ../sourc/strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/libf.dir/sourc/strncmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/strncmp.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strncmp.c
+
+CMakeFiles/libf.dir/sourc/strncmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/strncmp.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strncmp.c > CMakeFiles/libf.dir/sourc/strncmp.c.i
+
+CMakeFiles/libf.dir/sourc/strncmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/strncmp.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strncmp.c -o CMakeFiles/libf.dir/sourc/strncmp.c.s
+
+CMakeFiles/libf.dir/sourc/strnstr.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/strnstr.c.o: ../sourc/strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/libf.dir/sourc/strnstr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/strnstr.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strnstr.c
+
+CMakeFiles/libf.dir/sourc/strnstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/strnstr.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strnstr.c > CMakeFiles/libf.dir/sourc/strnstr.c.i
+
+CMakeFiles/libf.dir/sourc/strnstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/strnstr.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strnstr.c -o CMakeFiles/libf.dir/sourc/strnstr.c.s
+
+CMakeFiles/libf.dir/sourc/strrchr.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/strrchr.c.o: ../sourc/strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/libf.dir/sourc/strrchr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/strrchr.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strrchr.c
+
+CMakeFiles/libf.dir/sourc/strrchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/strrchr.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strrchr.c > CMakeFiles/libf.dir/sourc/strrchr.c.i
+
+CMakeFiles/libf.dir/sourc/strrchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/strrchr.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strrchr.c -o CMakeFiles/libf.dir/sourc/strrchr.c.s
+
+CMakeFiles/libf.dir/sourc/tolower.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/tolower.c.o: ../sourc/tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/libf.dir/sourc/tolower.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/tolower.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/tolower.c
+
+CMakeFiles/libf.dir/sourc/tolower.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/tolower.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/tolower.c > CMakeFiles/libf.dir/sourc/tolower.c.i
+
+CMakeFiles/libf.dir/sourc/tolower.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/tolower.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/tolower.c -o CMakeFiles/libf.dir/sourc/tolower.c.s
+
+CMakeFiles/libf.dir/sourc/toupper.c.o: CMakeFiles/libf.dir/flags.make
+CMakeFiles/libf.dir/sourc/toupper.c.o: ../sourc/toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/libf.dir/sourc/toupper.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libf.dir/sourc/toupper.c.o -c /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/toupper.c
+
+CMakeFiles/libf.dir/sourc/toupper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libf.dir/sourc/toupper.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/toupper.c > CMakeFiles/libf.dir/sourc/toupper.c.i
+
+CMakeFiles/libf.dir/sourc/toupper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libf.dir/sourc/toupper.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/toupper.c -o CMakeFiles/libf.dir/sourc/toupper.c.s
+
 # Object files for target libf
 libf_OBJECTS = \
-"CMakeFiles/libf.dir/main.c.o"
+"CMakeFiles/libf.dir/main.c.o" \
+"CMakeFiles/libf.dir/sourc/atoi.c.o" \
+"CMakeFiles/libf.dir/sourc/bzero.c.o" \
+"CMakeFiles/libf.dir/sourc/calloc.c.o" \
+"CMakeFiles/libf.dir/sourc/ft_itoa.c.o" \
+"CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.o" \
+"CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.o" \
+"CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.o" \
+"CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.o" \
+"CMakeFiles/libf.dir/sourc/ft_split.c.o" \
+"CMakeFiles/libf.dir/sourc/ft_striteri.c.o" \
+"CMakeFiles/libf.dir/sourc/ft_strjoin.c.o" \
+"CMakeFiles/libf.dir/sourc/ft_strmapi.c.o" \
+"CMakeFiles/libf.dir/sourc/ft_strtrim.c.o" \
+"CMakeFiles/libf.dir/sourc/ft_substr.c.o" \
+"CMakeFiles/libf.dir/sourc/isalnum.c.o" \
+"CMakeFiles/libf.dir/sourc/isalpha.c.o" \
+"CMakeFiles/libf.dir/sourc/isascii.c.o" \
+"CMakeFiles/libf.dir/sourc/isdigit.c.o" \
+"CMakeFiles/libf.dir/sourc/isprint.c.o" \
+"CMakeFiles/libf.dir/sourc/memchr.c.o" \
+"CMakeFiles/libf.dir/sourc/memcmp.c.o" \
+"CMakeFiles/libf.dir/sourc/memcpy.c.o" \
+"CMakeFiles/libf.dir/sourc/memmove.c.o" \
+"CMakeFiles/libf.dir/sourc/memset.c.o" \
+"CMakeFiles/libf.dir/sourc/strchr.c.o" \
+"CMakeFiles/libf.dir/sourc/strdup.c.o" \
+"CMakeFiles/libf.dir/sourc/strlcat.c.o" \
+"CMakeFiles/libf.dir/sourc/strlcpy.c.o" \
+"CMakeFiles/libf.dir/sourc/strlen.c.o" \
+"CMakeFiles/libf.dir/sourc/strncmp.c.o" \
+"CMakeFiles/libf.dir/sourc/strnstr.c.o" \
+"CMakeFiles/libf.dir/sourc/strrchr.c.o" \
+"CMakeFiles/libf.dir/sourc/tolower.c.o" \
+"CMakeFiles/libf.dir/sourc/toupper.c.o"
 
 # External object files for target libf
 libf_EXTERNAL_OBJECTS =
 
 libf.exe: CMakeFiles/libf.dir/main.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/atoi.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/bzero.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/calloc.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/ft_itoa.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/ft_split.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/ft_striteri.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/ft_strjoin.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/ft_strmapi.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/ft_strtrim.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/ft_substr.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/isalnum.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/isalpha.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/isascii.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/isdigit.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/isprint.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/memchr.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/memcmp.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/memcpy.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/memmove.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/memset.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/strchr.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/strdup.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/strlcat.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/strlcpy.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/strlen.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/strncmp.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/strnstr.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/strrchr.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/tolower.c.o
+libf.exe: CMakeFiles/libf.dir/sourc/toupper.c.o
 libf.exe: CMakeFiles/libf.dir/build.make
 libf.exe: CMakeFiles/libf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable libf.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/TimPC/CLionProjects/libf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C executable libf.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

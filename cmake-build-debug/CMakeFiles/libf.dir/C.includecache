@@ -6,21 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/TimPC/CLionProjects/libf/libtf.h
-string.h
--
-
-/cygdrive/c/Users/TimPC/CLionProjects/libf/main.c
+/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/libft.h
 stdio.h
 -
 string.h
--
-ctype.h
 -
 stdlib.h
 -
 unistd.h
 -
-libtf.h
-/cygdrive/c/Users/TimPC/CLionProjects/libf/libtf.h
+
+/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strchr.c
+libft.h
+/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/libft.h
 

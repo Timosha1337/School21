@@ -153,6 +153,822 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/main.c.s
 .PHONY : main.c.s
 
+sourc/atoi.o: sourc/atoi.c.o
+.PHONY : sourc/atoi.o
+
+# target to build an object file
+sourc/atoi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/atoi.c.o
+.PHONY : sourc/atoi.c.o
+
+sourc/atoi.i: sourc/atoi.c.i
+.PHONY : sourc/atoi.i
+
+# target to preprocess a source file
+sourc/atoi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/atoi.c.i
+.PHONY : sourc/atoi.c.i
+
+sourc/atoi.s: sourc/atoi.c.s
+.PHONY : sourc/atoi.s
+
+# target to generate assembly for a file
+sourc/atoi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/atoi.c.s
+.PHONY : sourc/atoi.c.s
+
+sourc/bzero.o: sourc/bzero.c.o
+.PHONY : sourc/bzero.o
+
+# target to build an object file
+sourc/bzero.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/bzero.c.o
+.PHONY : sourc/bzero.c.o
+
+sourc/bzero.i: sourc/bzero.c.i
+.PHONY : sourc/bzero.i
+
+# target to preprocess a source file
+sourc/bzero.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/bzero.c.i
+.PHONY : sourc/bzero.c.i
+
+sourc/bzero.s: sourc/bzero.c.s
+.PHONY : sourc/bzero.s
+
+# target to generate assembly for a file
+sourc/bzero.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/bzero.c.s
+.PHONY : sourc/bzero.c.s
+
+sourc/calloc.o: sourc/calloc.c.o
+.PHONY : sourc/calloc.o
+
+# target to build an object file
+sourc/calloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/calloc.c.o
+.PHONY : sourc/calloc.c.o
+
+sourc/calloc.i: sourc/calloc.c.i
+.PHONY : sourc/calloc.i
+
+# target to preprocess a source file
+sourc/calloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/calloc.c.i
+.PHONY : sourc/calloc.c.i
+
+sourc/calloc.s: sourc/calloc.c.s
+.PHONY : sourc/calloc.s
+
+# target to generate assembly for a file
+sourc/calloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/calloc.c.s
+.PHONY : sourc/calloc.c.s
+
+sourc/ft_itoa.o: sourc/ft_itoa.c.o
+.PHONY : sourc/ft_itoa.o
+
+# target to build an object file
+sourc/ft_itoa.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_itoa.c.o
+.PHONY : sourc/ft_itoa.c.o
+
+sourc/ft_itoa.i: sourc/ft_itoa.c.i
+.PHONY : sourc/ft_itoa.i
+
+# target to preprocess a source file
+sourc/ft_itoa.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_itoa.c.i
+.PHONY : sourc/ft_itoa.c.i
+
+sourc/ft_itoa.s: sourc/ft_itoa.c.s
+.PHONY : sourc/ft_itoa.s
+
+# target to generate assembly for a file
+sourc/ft_itoa.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_itoa.c.s
+.PHONY : sourc/ft_itoa.c.s
+
+sourc/ft_putchar_fd.o: sourc/ft_putchar_fd.c.o
+.PHONY : sourc/ft_putchar_fd.o
+
+# target to build an object file
+sourc/ft_putchar_fd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.o
+.PHONY : sourc/ft_putchar_fd.c.o
+
+sourc/ft_putchar_fd.i: sourc/ft_putchar_fd.c.i
+.PHONY : sourc/ft_putchar_fd.i
+
+# target to preprocess a source file
+sourc/ft_putchar_fd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.i
+.PHONY : sourc/ft_putchar_fd.c.i
+
+sourc/ft_putchar_fd.s: sourc/ft_putchar_fd.c.s
+.PHONY : sourc/ft_putchar_fd.s
+
+# target to generate assembly for a file
+sourc/ft_putchar_fd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.s
+.PHONY : sourc/ft_putchar_fd.c.s
+
+sourc/ft_putendl_fd.o: sourc/ft_putendl_fd.c.o
+.PHONY : sourc/ft_putendl_fd.o
+
+# target to build an object file
+sourc/ft_putendl_fd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.o
+.PHONY : sourc/ft_putendl_fd.c.o
+
+sourc/ft_putendl_fd.i: sourc/ft_putendl_fd.c.i
+.PHONY : sourc/ft_putendl_fd.i
+
+# target to preprocess a source file
+sourc/ft_putendl_fd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.i
+.PHONY : sourc/ft_putendl_fd.c.i
+
+sourc/ft_putendl_fd.s: sourc/ft_putendl_fd.c.s
+.PHONY : sourc/ft_putendl_fd.s
+
+# target to generate assembly for a file
+sourc/ft_putendl_fd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_putendl_fd.c.s
+.PHONY : sourc/ft_putendl_fd.c.s
+
+sourc/ft_putnbr_fd.o: sourc/ft_putnbr_fd.c.o
+.PHONY : sourc/ft_putnbr_fd.o
+
+# target to build an object file
+sourc/ft_putnbr_fd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.o
+.PHONY : sourc/ft_putnbr_fd.c.o
+
+sourc/ft_putnbr_fd.i: sourc/ft_putnbr_fd.c.i
+.PHONY : sourc/ft_putnbr_fd.i
+
+# target to preprocess a source file
+sourc/ft_putnbr_fd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.i
+.PHONY : sourc/ft_putnbr_fd.c.i
+
+sourc/ft_putnbr_fd.s: sourc/ft_putnbr_fd.c.s
+.PHONY : sourc/ft_putnbr_fd.s
+
+# target to generate assembly for a file
+sourc/ft_putnbr_fd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_putnbr_fd.c.s
+.PHONY : sourc/ft_putnbr_fd.c.s
+
+sourc/ft_putstr_fd.o: sourc/ft_putstr_fd.c.o
+.PHONY : sourc/ft_putstr_fd.o
+
+# target to build an object file
+sourc/ft_putstr_fd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.o
+.PHONY : sourc/ft_putstr_fd.c.o
+
+sourc/ft_putstr_fd.i: sourc/ft_putstr_fd.c.i
+.PHONY : sourc/ft_putstr_fd.i
+
+# target to preprocess a source file
+sourc/ft_putstr_fd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.i
+.PHONY : sourc/ft_putstr_fd.c.i
+
+sourc/ft_putstr_fd.s: sourc/ft_putstr_fd.c.s
+.PHONY : sourc/ft_putstr_fd.s
+
+# target to generate assembly for a file
+sourc/ft_putstr_fd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_putstr_fd.c.s
+.PHONY : sourc/ft_putstr_fd.c.s
+
+sourc/ft_split.o: sourc/ft_split.c.o
+.PHONY : sourc/ft_split.o
+
+# target to build an object file
+sourc/ft_split.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_split.c.o
+.PHONY : sourc/ft_split.c.o
+
+sourc/ft_split.i: sourc/ft_split.c.i
+.PHONY : sourc/ft_split.i
+
+# target to preprocess a source file
+sourc/ft_split.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_split.c.i
+.PHONY : sourc/ft_split.c.i
+
+sourc/ft_split.s: sourc/ft_split.c.s
+.PHONY : sourc/ft_split.s
+
+# target to generate assembly for a file
+sourc/ft_split.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_split.c.s
+.PHONY : sourc/ft_split.c.s
+
+sourc/ft_striteri.o: sourc/ft_striteri.c.o
+.PHONY : sourc/ft_striteri.o
+
+# target to build an object file
+sourc/ft_striteri.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_striteri.c.o
+.PHONY : sourc/ft_striteri.c.o
+
+sourc/ft_striteri.i: sourc/ft_striteri.c.i
+.PHONY : sourc/ft_striteri.i
+
+# target to preprocess a source file
+sourc/ft_striteri.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_striteri.c.i
+.PHONY : sourc/ft_striteri.c.i
+
+sourc/ft_striteri.s: sourc/ft_striteri.c.s
+.PHONY : sourc/ft_striteri.s
+
+# target to generate assembly for a file
+sourc/ft_striteri.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_striteri.c.s
+.PHONY : sourc/ft_striteri.c.s
+
+sourc/ft_strjoin.o: sourc/ft_strjoin.c.o
+.PHONY : sourc/ft_strjoin.o
+
+# target to build an object file
+sourc/ft_strjoin.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_strjoin.c.o
+.PHONY : sourc/ft_strjoin.c.o
+
+sourc/ft_strjoin.i: sourc/ft_strjoin.c.i
+.PHONY : sourc/ft_strjoin.i
+
+# target to preprocess a source file
+sourc/ft_strjoin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_strjoin.c.i
+.PHONY : sourc/ft_strjoin.c.i
+
+sourc/ft_strjoin.s: sourc/ft_strjoin.c.s
+.PHONY : sourc/ft_strjoin.s
+
+# target to generate assembly for a file
+sourc/ft_strjoin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_strjoin.c.s
+.PHONY : sourc/ft_strjoin.c.s
+
+sourc/ft_strmapi.o: sourc/ft_strmapi.c.o
+.PHONY : sourc/ft_strmapi.o
+
+# target to build an object file
+sourc/ft_strmapi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_strmapi.c.o
+.PHONY : sourc/ft_strmapi.c.o
+
+sourc/ft_strmapi.i: sourc/ft_strmapi.c.i
+.PHONY : sourc/ft_strmapi.i
+
+# target to preprocess a source file
+sourc/ft_strmapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_strmapi.c.i
+.PHONY : sourc/ft_strmapi.c.i
+
+sourc/ft_strmapi.s: sourc/ft_strmapi.c.s
+.PHONY : sourc/ft_strmapi.s
+
+# target to generate assembly for a file
+sourc/ft_strmapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_strmapi.c.s
+.PHONY : sourc/ft_strmapi.c.s
+
+sourc/ft_strtrim.o: sourc/ft_strtrim.c.o
+.PHONY : sourc/ft_strtrim.o
+
+# target to build an object file
+sourc/ft_strtrim.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_strtrim.c.o
+.PHONY : sourc/ft_strtrim.c.o
+
+sourc/ft_strtrim.i: sourc/ft_strtrim.c.i
+.PHONY : sourc/ft_strtrim.i
+
+# target to preprocess a source file
+sourc/ft_strtrim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_strtrim.c.i
+.PHONY : sourc/ft_strtrim.c.i
+
+sourc/ft_strtrim.s: sourc/ft_strtrim.c.s
+.PHONY : sourc/ft_strtrim.s
+
+# target to generate assembly for a file
+sourc/ft_strtrim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_strtrim.c.s
+.PHONY : sourc/ft_strtrim.c.s
+
+sourc/ft_substr.o: sourc/ft_substr.c.o
+.PHONY : sourc/ft_substr.o
+
+# target to build an object file
+sourc/ft_substr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_substr.c.o
+.PHONY : sourc/ft_substr.c.o
+
+sourc/ft_substr.i: sourc/ft_substr.c.i
+.PHONY : sourc/ft_substr.i
+
+# target to preprocess a source file
+sourc/ft_substr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_substr.c.i
+.PHONY : sourc/ft_substr.c.i
+
+sourc/ft_substr.s: sourc/ft_substr.c.s
+.PHONY : sourc/ft_substr.s
+
+# target to generate assembly for a file
+sourc/ft_substr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/ft_substr.c.s
+.PHONY : sourc/ft_substr.c.s
+
+sourc/isalnum.o: sourc/isalnum.c.o
+.PHONY : sourc/isalnum.o
+
+# target to build an object file
+sourc/isalnum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isalnum.c.o
+.PHONY : sourc/isalnum.c.o
+
+sourc/isalnum.i: sourc/isalnum.c.i
+.PHONY : sourc/isalnum.i
+
+# target to preprocess a source file
+sourc/isalnum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isalnum.c.i
+.PHONY : sourc/isalnum.c.i
+
+sourc/isalnum.s: sourc/isalnum.c.s
+.PHONY : sourc/isalnum.s
+
+# target to generate assembly for a file
+sourc/isalnum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isalnum.c.s
+.PHONY : sourc/isalnum.c.s
+
+sourc/isalpha.o: sourc/isalpha.c.o
+.PHONY : sourc/isalpha.o
+
+# target to build an object file
+sourc/isalpha.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isalpha.c.o
+.PHONY : sourc/isalpha.c.o
+
+sourc/isalpha.i: sourc/isalpha.c.i
+.PHONY : sourc/isalpha.i
+
+# target to preprocess a source file
+sourc/isalpha.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isalpha.c.i
+.PHONY : sourc/isalpha.c.i
+
+sourc/isalpha.s: sourc/isalpha.c.s
+.PHONY : sourc/isalpha.s
+
+# target to generate assembly for a file
+sourc/isalpha.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isalpha.c.s
+.PHONY : sourc/isalpha.c.s
+
+sourc/isascii.o: sourc/isascii.c.o
+.PHONY : sourc/isascii.o
+
+# target to build an object file
+sourc/isascii.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isascii.c.o
+.PHONY : sourc/isascii.c.o
+
+sourc/isascii.i: sourc/isascii.c.i
+.PHONY : sourc/isascii.i
+
+# target to preprocess a source file
+sourc/isascii.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isascii.c.i
+.PHONY : sourc/isascii.c.i
+
+sourc/isascii.s: sourc/isascii.c.s
+.PHONY : sourc/isascii.s
+
+# target to generate assembly for a file
+sourc/isascii.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isascii.c.s
+.PHONY : sourc/isascii.c.s
+
+sourc/isdigit.o: sourc/isdigit.c.o
+.PHONY : sourc/isdigit.o
+
+# target to build an object file
+sourc/isdigit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isdigit.c.o
+.PHONY : sourc/isdigit.c.o
+
+sourc/isdigit.i: sourc/isdigit.c.i
+.PHONY : sourc/isdigit.i
+
+# target to preprocess a source file
+sourc/isdigit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isdigit.c.i
+.PHONY : sourc/isdigit.c.i
+
+sourc/isdigit.s: sourc/isdigit.c.s
+.PHONY : sourc/isdigit.s
+
+# target to generate assembly for a file
+sourc/isdigit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isdigit.c.s
+.PHONY : sourc/isdigit.c.s
+
+sourc/isprint.o: sourc/isprint.c.o
+.PHONY : sourc/isprint.o
+
+# target to build an object file
+sourc/isprint.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isprint.c.o
+.PHONY : sourc/isprint.c.o
+
+sourc/isprint.i: sourc/isprint.c.i
+.PHONY : sourc/isprint.i
+
+# target to preprocess a source file
+sourc/isprint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isprint.c.i
+.PHONY : sourc/isprint.c.i
+
+sourc/isprint.s: sourc/isprint.c.s
+.PHONY : sourc/isprint.s
+
+# target to generate assembly for a file
+sourc/isprint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/isprint.c.s
+.PHONY : sourc/isprint.c.s
+
+sourc/memchr.o: sourc/memchr.c.o
+.PHONY : sourc/memchr.o
+
+# target to build an object file
+sourc/memchr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memchr.c.o
+.PHONY : sourc/memchr.c.o
+
+sourc/memchr.i: sourc/memchr.c.i
+.PHONY : sourc/memchr.i
+
+# target to preprocess a source file
+sourc/memchr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memchr.c.i
+.PHONY : sourc/memchr.c.i
+
+sourc/memchr.s: sourc/memchr.c.s
+.PHONY : sourc/memchr.s
+
+# target to generate assembly for a file
+sourc/memchr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memchr.c.s
+.PHONY : sourc/memchr.c.s
+
+sourc/memcmp.o: sourc/memcmp.c.o
+.PHONY : sourc/memcmp.o
+
+# target to build an object file
+sourc/memcmp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memcmp.c.o
+.PHONY : sourc/memcmp.c.o
+
+sourc/memcmp.i: sourc/memcmp.c.i
+.PHONY : sourc/memcmp.i
+
+# target to preprocess a source file
+sourc/memcmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memcmp.c.i
+.PHONY : sourc/memcmp.c.i
+
+sourc/memcmp.s: sourc/memcmp.c.s
+.PHONY : sourc/memcmp.s
+
+# target to generate assembly for a file
+sourc/memcmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memcmp.c.s
+.PHONY : sourc/memcmp.c.s
+
+sourc/memcpy.o: sourc/memcpy.c.o
+.PHONY : sourc/memcpy.o
+
+# target to build an object file
+sourc/memcpy.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memcpy.c.o
+.PHONY : sourc/memcpy.c.o
+
+sourc/memcpy.i: sourc/memcpy.c.i
+.PHONY : sourc/memcpy.i
+
+# target to preprocess a source file
+sourc/memcpy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memcpy.c.i
+.PHONY : sourc/memcpy.c.i
+
+sourc/memcpy.s: sourc/memcpy.c.s
+.PHONY : sourc/memcpy.s
+
+# target to generate assembly for a file
+sourc/memcpy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memcpy.c.s
+.PHONY : sourc/memcpy.c.s
+
+sourc/memmove.o: sourc/memmove.c.o
+.PHONY : sourc/memmove.o
+
+# target to build an object file
+sourc/memmove.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memmove.c.o
+.PHONY : sourc/memmove.c.o
+
+sourc/memmove.i: sourc/memmove.c.i
+.PHONY : sourc/memmove.i
+
+# target to preprocess a source file
+sourc/memmove.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memmove.c.i
+.PHONY : sourc/memmove.c.i
+
+sourc/memmove.s: sourc/memmove.c.s
+.PHONY : sourc/memmove.s
+
+# target to generate assembly for a file
+sourc/memmove.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memmove.c.s
+.PHONY : sourc/memmove.c.s
+
+sourc/memset.o: sourc/memset.c.o
+.PHONY : sourc/memset.o
+
+# target to build an object file
+sourc/memset.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memset.c.o
+.PHONY : sourc/memset.c.o
+
+sourc/memset.i: sourc/memset.c.i
+.PHONY : sourc/memset.i
+
+# target to preprocess a source file
+sourc/memset.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memset.c.i
+.PHONY : sourc/memset.c.i
+
+sourc/memset.s: sourc/memset.c.s
+.PHONY : sourc/memset.s
+
+# target to generate assembly for a file
+sourc/memset.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/memset.c.s
+.PHONY : sourc/memset.c.s
+
+sourc/strchr.o: sourc/strchr.c.o
+.PHONY : sourc/strchr.o
+
+# target to build an object file
+sourc/strchr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strchr.c.o
+.PHONY : sourc/strchr.c.o
+
+sourc/strchr.i: sourc/strchr.c.i
+.PHONY : sourc/strchr.i
+
+# target to preprocess a source file
+sourc/strchr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strchr.c.i
+.PHONY : sourc/strchr.c.i
+
+sourc/strchr.s: sourc/strchr.c.s
+.PHONY : sourc/strchr.s
+
+# target to generate assembly for a file
+sourc/strchr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strchr.c.s
+.PHONY : sourc/strchr.c.s
+
+sourc/strdup.o: sourc/strdup.c.o
+.PHONY : sourc/strdup.o
+
+# target to build an object file
+sourc/strdup.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strdup.c.o
+.PHONY : sourc/strdup.c.o
+
+sourc/strdup.i: sourc/strdup.c.i
+.PHONY : sourc/strdup.i
+
+# target to preprocess a source file
+sourc/strdup.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strdup.c.i
+.PHONY : sourc/strdup.c.i
+
+sourc/strdup.s: sourc/strdup.c.s
+.PHONY : sourc/strdup.s
+
+# target to generate assembly for a file
+sourc/strdup.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strdup.c.s
+.PHONY : sourc/strdup.c.s
+
+sourc/strlcat.o: sourc/strlcat.c.o
+.PHONY : sourc/strlcat.o
+
+# target to build an object file
+sourc/strlcat.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strlcat.c.o
+.PHONY : sourc/strlcat.c.o
+
+sourc/strlcat.i: sourc/strlcat.c.i
+.PHONY : sourc/strlcat.i
+
+# target to preprocess a source file
+sourc/strlcat.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strlcat.c.i
+.PHONY : sourc/strlcat.c.i
+
+sourc/strlcat.s: sourc/strlcat.c.s
+.PHONY : sourc/strlcat.s
+
+# target to generate assembly for a file
+sourc/strlcat.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strlcat.c.s
+.PHONY : sourc/strlcat.c.s
+
+sourc/strlcpy.o: sourc/strlcpy.c.o
+.PHONY : sourc/strlcpy.o
+
+# target to build an object file
+sourc/strlcpy.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strlcpy.c.o
+.PHONY : sourc/strlcpy.c.o
+
+sourc/strlcpy.i: sourc/strlcpy.c.i
+.PHONY : sourc/strlcpy.i
+
+# target to preprocess a source file
+sourc/strlcpy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strlcpy.c.i
+.PHONY : sourc/strlcpy.c.i
+
+sourc/strlcpy.s: sourc/strlcpy.c.s
+.PHONY : sourc/strlcpy.s
+
+# target to generate assembly for a file
+sourc/strlcpy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strlcpy.c.s
+.PHONY : sourc/strlcpy.c.s
+
+sourc/strlen.o: sourc/strlen.c.o
+.PHONY : sourc/strlen.o
+
+# target to build an object file
+sourc/strlen.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strlen.c.o
+.PHONY : sourc/strlen.c.o
+
+sourc/strlen.i: sourc/strlen.c.i
+.PHONY : sourc/strlen.i
+
+# target to preprocess a source file
+sourc/strlen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strlen.c.i
+.PHONY : sourc/strlen.c.i
+
+sourc/strlen.s: sourc/strlen.c.s
+.PHONY : sourc/strlen.s
+
+# target to generate assembly for a file
+sourc/strlen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strlen.c.s
+.PHONY : sourc/strlen.c.s
+
+sourc/strncmp.o: sourc/strncmp.c.o
+.PHONY : sourc/strncmp.o
+
+# target to build an object file
+sourc/strncmp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strncmp.c.o
+.PHONY : sourc/strncmp.c.o
+
+sourc/strncmp.i: sourc/strncmp.c.i
+.PHONY : sourc/strncmp.i
+
+# target to preprocess a source file
+sourc/strncmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strncmp.c.i
+.PHONY : sourc/strncmp.c.i
+
+sourc/strncmp.s: sourc/strncmp.c.s
+.PHONY : sourc/strncmp.s
+
+# target to generate assembly for a file
+sourc/strncmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strncmp.c.s
+.PHONY : sourc/strncmp.c.s
+
+sourc/strnstr.o: sourc/strnstr.c.o
+.PHONY : sourc/strnstr.o
+
+# target to build an object file
+sourc/strnstr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strnstr.c.o
+.PHONY : sourc/strnstr.c.o
+
+sourc/strnstr.i: sourc/strnstr.c.i
+.PHONY : sourc/strnstr.i
+
+# target to preprocess a source file
+sourc/strnstr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strnstr.c.i
+.PHONY : sourc/strnstr.c.i
+
+sourc/strnstr.s: sourc/strnstr.c.s
+.PHONY : sourc/strnstr.s
+
+# target to generate assembly for a file
+sourc/strnstr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strnstr.c.s
+.PHONY : sourc/strnstr.c.s
+
+sourc/strrchr.o: sourc/strrchr.c.o
+.PHONY : sourc/strrchr.o
+
+# target to build an object file
+sourc/strrchr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strrchr.c.o
+.PHONY : sourc/strrchr.c.o
+
+sourc/strrchr.i: sourc/strrchr.c.i
+.PHONY : sourc/strrchr.i
+
+# target to preprocess a source file
+sourc/strrchr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strrchr.c.i
+.PHONY : sourc/strrchr.c.i
+
+sourc/strrchr.s: sourc/strrchr.c.s
+.PHONY : sourc/strrchr.s
+
+# target to generate assembly for a file
+sourc/strrchr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/strrchr.c.s
+.PHONY : sourc/strrchr.c.s
+
+sourc/tolower.o: sourc/tolower.c.o
+.PHONY : sourc/tolower.o
+
+# target to build an object file
+sourc/tolower.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/tolower.c.o
+.PHONY : sourc/tolower.c.o
+
+sourc/tolower.i: sourc/tolower.c.i
+.PHONY : sourc/tolower.i
+
+# target to preprocess a source file
+sourc/tolower.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/tolower.c.i
+.PHONY : sourc/tolower.c.i
+
+sourc/tolower.s: sourc/tolower.c.s
+.PHONY : sourc/tolower.s
+
+# target to generate assembly for a file
+sourc/tolower.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/tolower.c.s
+.PHONY : sourc/tolower.c.s
+
+sourc/toupper.o: sourc/toupper.c.o
+.PHONY : sourc/toupper.o
+
+# target to build an object file
+sourc/toupper.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/toupper.c.o
+.PHONY : sourc/toupper.c.o
+
+sourc/toupper.i: sourc/toupper.c.i
+.PHONY : sourc/toupper.i
+
+# target to preprocess a source file
+sourc/toupper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/toupper.c.i
+.PHONY : sourc/toupper.c.i
+
+sourc/toupper.s: sourc/toupper.c.s
+.PHONY : sourc/toupper.s
+
+# target to generate assembly for a file
+sourc/toupper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libf.dir/build.make CMakeFiles/libf.dir/sourc/toupper.c.s
+.PHONY : sourc/toupper.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +981,108 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sourc/atoi.o"
+	@echo "... sourc/atoi.i"
+	@echo "... sourc/atoi.s"
+	@echo "... sourc/bzero.o"
+	@echo "... sourc/bzero.i"
+	@echo "... sourc/bzero.s"
+	@echo "... sourc/calloc.o"
+	@echo "... sourc/calloc.i"
+	@echo "... sourc/calloc.s"
+	@echo "... sourc/ft_itoa.o"
+	@echo "... sourc/ft_itoa.i"
+	@echo "... sourc/ft_itoa.s"
+	@echo "... sourc/ft_putchar_fd.o"
+	@echo "... sourc/ft_putchar_fd.i"
+	@echo "... sourc/ft_putchar_fd.s"
+	@echo "... sourc/ft_putendl_fd.o"
+	@echo "... sourc/ft_putendl_fd.i"
+	@echo "... sourc/ft_putendl_fd.s"
+	@echo "... sourc/ft_putnbr_fd.o"
+	@echo "... sourc/ft_putnbr_fd.i"
+	@echo "... sourc/ft_putnbr_fd.s"
+	@echo "... sourc/ft_putstr_fd.o"
+	@echo "... sourc/ft_putstr_fd.i"
+	@echo "... sourc/ft_putstr_fd.s"
+	@echo "... sourc/ft_split.o"
+	@echo "... sourc/ft_split.i"
+	@echo "... sourc/ft_split.s"
+	@echo "... sourc/ft_striteri.o"
+	@echo "... sourc/ft_striteri.i"
+	@echo "... sourc/ft_striteri.s"
+	@echo "... sourc/ft_strjoin.o"
+	@echo "... sourc/ft_strjoin.i"
+	@echo "... sourc/ft_strjoin.s"
+	@echo "... sourc/ft_strmapi.o"
+	@echo "... sourc/ft_strmapi.i"
+	@echo "... sourc/ft_strmapi.s"
+	@echo "... sourc/ft_strtrim.o"
+	@echo "... sourc/ft_strtrim.i"
+	@echo "... sourc/ft_strtrim.s"
+	@echo "... sourc/ft_substr.o"
+	@echo "... sourc/ft_substr.i"
+	@echo "... sourc/ft_substr.s"
+	@echo "... sourc/isalnum.o"
+	@echo "... sourc/isalnum.i"
+	@echo "... sourc/isalnum.s"
+	@echo "... sourc/isalpha.o"
+	@echo "... sourc/isalpha.i"
+	@echo "... sourc/isalpha.s"
+	@echo "... sourc/isascii.o"
+	@echo "... sourc/isascii.i"
+	@echo "... sourc/isascii.s"
+	@echo "... sourc/isdigit.o"
+	@echo "... sourc/isdigit.i"
+	@echo "... sourc/isdigit.s"
+	@echo "... sourc/isprint.o"
+	@echo "... sourc/isprint.i"
+	@echo "... sourc/isprint.s"
+	@echo "... sourc/memchr.o"
+	@echo "... sourc/memchr.i"
+	@echo "... sourc/memchr.s"
+	@echo "... sourc/memcmp.o"
+	@echo "... sourc/memcmp.i"
+	@echo "... sourc/memcmp.s"
+	@echo "... sourc/memcpy.o"
+	@echo "... sourc/memcpy.i"
+	@echo "... sourc/memcpy.s"
+	@echo "... sourc/memmove.o"
+	@echo "... sourc/memmove.i"
+	@echo "... sourc/memmove.s"
+	@echo "... sourc/memset.o"
+	@echo "... sourc/memset.i"
+	@echo "... sourc/memset.s"
+	@echo "... sourc/strchr.o"
+	@echo "... sourc/strchr.i"
+	@echo "... sourc/strchr.s"
+	@echo "... sourc/strdup.o"
+	@echo "... sourc/strdup.i"
+	@echo "... sourc/strdup.s"
+	@echo "... sourc/strlcat.o"
+	@echo "... sourc/strlcat.i"
+	@echo "... sourc/strlcat.s"
+	@echo "... sourc/strlcpy.o"
+	@echo "... sourc/strlcpy.i"
+	@echo "... sourc/strlcpy.s"
+	@echo "... sourc/strlen.o"
+	@echo "... sourc/strlen.i"
+	@echo "... sourc/strlen.s"
+	@echo "... sourc/strncmp.o"
+	@echo "... sourc/strncmp.i"
+	@echo "... sourc/strncmp.s"
+	@echo "... sourc/strnstr.o"
+	@echo "... sourc/strnstr.i"
+	@echo "... sourc/strnstr.s"
+	@echo "... sourc/strrchr.o"
+	@echo "... sourc/strrchr.i"
+	@echo "... sourc/strrchr.s"
+	@echo "... sourc/tolower.o"
+	@echo "... sourc/tolower.i"
+	@echo "... sourc/tolower.s"
+	@echo "... sourc/toupper.o"
+	@echo "... sourc/toupper.i"
+	@echo "... sourc/toupper.s"
 .PHONY : help
 
 

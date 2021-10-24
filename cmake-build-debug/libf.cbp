@@ -74,10 +74,112 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/libft.h">
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/main.c">
 			<Option target="libf"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/main.c">
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/atoi.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/bzero.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/calloc.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_itoa.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putchar_fd.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putendl_fd.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putnbr_fd.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_putstr_fd.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_split.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_striteri.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_strjoin.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_strmapi.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_strtrim.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_substr.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isalnum.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isalpha.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isascii.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isdigit.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/isprint.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/libft.h">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memchr.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memcmp.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memcpy.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memmove.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/memset.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strchr.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strdup.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strlcat.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strlcpy.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strlen.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strncmp.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strnstr.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strrchr.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/tolower.c">
+			<Option target="libf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/toupper.c">
 			<Option target="libf"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/TimPC/CLionProjects/libf/CMakeLists.txt">
