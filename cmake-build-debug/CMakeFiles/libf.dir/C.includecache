@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/ft_split.c
+stdlib.h
+-
+libft.h
+/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/libft.h
+
 /cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/libft.h
 stdio.h
 -
@@ -15,8 +21,4 @@ stdlib.h
 -
 unistd.h
 -
-
-/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/strchr.c
-libft.h
-/cygdrive/c/Users/TimPC/CLionProjects/libf/sourc/libft.h
 

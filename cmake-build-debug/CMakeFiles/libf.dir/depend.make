@@ -11,7 +11,8 @@ CMakeFiles/libf.dir/sourc/bzero.c.o: \
 CMakeFiles/libf.dir/sourc/calloc.c.o: \
  ../sourc/calloc.c
 CMakeFiles/libf.dir/sourc/ft_itoa.c.o: \
- ../sourc/ft_itoa.c
+ ../sourc/ft_itoa.c \
+ ../sourc/libft.h
 CMakeFiles/libf.dir/sourc/ft_putchar_fd.c.o: \
  ../sourc/ft_putchar_fd.c \
  ../sourc/libft.h

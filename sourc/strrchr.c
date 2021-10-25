@@ -1,14 +1,15 @@
 #include "libft.h"
-char *ft_strrchr (const char *string, int symbol)
+
+char	*ft_strrchr(const char *string, int symbol)
 {
-	char *value;
+	char	*value;
 
 	while (*string || symbol == '\0' )
 	{
 		if (*string == symbol)
-			value = (char  *)string;
+			value = (char *)string;
 		if (*string == '\0')
-			break;
+			break ;
 		*string++;
 	}
 	if (*value == symbol)

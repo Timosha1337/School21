@@ -7,7 +7,8 @@
 
 int main()
 {
-	ft_putstr_fd("s", 1);
+	char **r = ft_split(" 111 222   333  ",' ');
+	printf("%s %s %s\n", r[0],r[1],r[2]);
 }
 
 
